@@ -10,7 +10,7 @@ This repository contains the end-to-end Python bioinformatics pipeline for analy
 ## Folder Structure
 
 ```text
-GSE153837-pbmc-transcriptomics-analysis/
+MDRF_PBMC_Transcriptomics_Analysis_Pipeline/
 ├── README.md                      # Quick-start guide and pipeline overview
 ├── requirements.txt               # Required Python libraries
 ├── .gitignore                     # Excludes raw data/ (~50 MB) and temporary caches

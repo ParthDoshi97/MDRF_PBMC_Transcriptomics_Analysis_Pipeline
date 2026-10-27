@@ -1,0 +1,49 @@
+# Data directory (Raw GEO soft files, extracted expression matrices, probe p-values)
+# Large data files should be downloaded/generated using scripts/01_dataset_exploration.py
+data/
+*.soft.gz
+*.csv.gz
+
+# Python cache & build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Microsoft Word / Office temporary lock files
+~$*.docx
+~$*.xlsx

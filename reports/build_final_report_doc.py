@@ -438,7 +438,7 @@ def generate_report():
     )
 
     # 8. CODE REPOSITORY & REPRODUCIBILITY GUIDE
-    add_heading_1(doc, "8. GitLab Code Repository & Reproducibility Guide")
+    add_heading_1(doc, "8. GitHub Code Repository & Reproducibility Guide")
     add_paragraph(
         doc,
         "The entire computational pipeline was implemented in modular, fully reproducible Python scripts located in the local repository workspace. All scripts are documented and self-contained:\n\n"
@@ -448,7 +448,7 @@ def generate_report():
         "• Script 4: scripts/04_visualization.py — Generates dual volcano plots, MA plots, clustered heatmaps, Venn diagram, and candidate boxplots.\n"
         "• Script 5: scripts/05_pathway_analysis.py — Functional enrichment via Over-Representation Analysis (GO, KEGG, Reactome) and preranked GSEA.\n"
         "• Report Generation: reports/build_final_report_doc.py — Compiles the final scientific report and embedded figures into Word (.docx).\n\n"
-        "GitLab Repository Link: https://gitlab.com/mdrf-bioinformatics/GSE153837-pbmc-transcriptomics-analysis\n"
+        "GitHub Repository Link: https://github.com/ParthDoshi97/GSE153837-pbmc-transcriptomics-analysis\n"
         "Execution Instructions: Run scripts sequentially via: python scripts/01_dataset_exploration.py && python scripts/02_quality_control.py && python scripts/03_differential_expression.py && python scripts/04_visualization.py && python scripts/05_pathway_analysis.py"
     )
 

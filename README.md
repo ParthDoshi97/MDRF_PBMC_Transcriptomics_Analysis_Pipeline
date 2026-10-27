@@ -169,8 +169,8 @@ Differential expression analysis was executed using Welch's two-sample unequal v
 ### 1. Environment Setup
 Clone the repository and install required dependencies:
 ```bash
-git clone https://github.com/<username>/GSE153837-pbmc-transcriptomics.git
-cd GSE153837-pbmc-transcriptomics
+git clone https://github.com/ParthDoshi97/GSE153837-pbmc-transcriptomics-analysis.git
+cd GSE153837-pbmc-transcriptomics-analysis
 python -m venv venv
 # On Windows:
 .\venv\Scripts\activate

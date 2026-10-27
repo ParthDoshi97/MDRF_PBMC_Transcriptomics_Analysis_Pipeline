@@ -153,7 +153,7 @@ These results provide a molecular rationale for the heightened cardiovascular vu
 
 ---
 
-## 9. GitLab Code Repository & Reproducibility Guide
+## 9. GitHub Code Repository & Reproducibility Guide
 The entire computational pipeline was implemented in modular, fully reproducible Python scripts located in the local repository workspace:
 * **Script 1:** [`scripts/01_dataset_exploration.py`](file:///c:/Users/user/Desktop/Assigniment(MDRF)/Task2/scripts/01_dataset_exploration.py) — Automated download of GSE153837, metadata parsing, sample group categorization.
 * **Script 2:** [`scripts/02_quality_control.py`](file:///c:/Users/user/Desktop/Assigniment(MDRF)/Task2/scripts/02_quality_control.py) — Full QC pipeline (detection p-value filtering, quantile normalization, multivariable PCA, batch effect testing).
